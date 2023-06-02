@@ -28,10 +28,10 @@ https://drive.google.com/uc?export=download&id=1qQ3ohQgHur7sH2sjZpljaJQIJqz5o8aK
 
 
 ### Training
-
+Pending
 
 ## Bibtex
-
+Pending
 
 ## Acknowledgement
 Yao and Hu's research is supported in part by Advata Gift Funding. All opinions, findings, conclusions and recommendations in this project are those of the author and do not necessarily reflect the views of the funding agencies. 
