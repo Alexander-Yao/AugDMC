@@ -16,6 +16,7 @@ we propose AugDMC, a novel data Augmentation guided Deep Multiple Clustering met
 ## Requirements
  - We recommend Linux for performance and compatibility reasons.
  - 1 NVIDIA GPUs. We developed and trained the model using RTX 2080 Ti(11GB).
+ - PyTorch >= 1.11
 
 
 ## Getting started
@@ -27,11 +28,26 @@ we propose AugDMC, a novel data Augmentation guided Deep Multiple Clustering met
 https://drive.google.com/uc?export=download&id=1qQ3ohQgHur7sH2sjZpljaJQIJqz5o8aK
 
 
-### Training
-Pending
+### Training and evaluation
+Fruit dataset: \
+`python main.py --dataset fruit --lr 0.01 --weight_decay 0.0005 --type color` \
+`python main.py --dataset fruit --lr 0.01 --weight_decay 0.0001 --type species` 
+
+Fruit360 dataset: \
+`python main.py --dataset fruit360 --lr 0.05 --weight_decay 0.0005 --type color` \
+`python main.py --dataset fruit360 --lr 0.01 --weight_decay 0.0001 --type species`
 
 ## Bibtex
-Pending
+Please cite our paper if you use this code or labeled datasets (Furit360/Cards) in your own work:
+
+```
+@article{yao2023augdmc,
+  title={AugDMC: Data Augmentation Guided Deep Multiple Clustering},
+  author={Yao, Jiawei and Liu, Enbei and Rashid, Maham and Hu, Juhua},
+  journal={arXiv preprint arXiv:2306.13023},
+  year={2023}
+}
+```
 
 ## Acknowledgement
 Yao and Hu's research is supported in part by Advata Gift Funding. All opinions, findings, conclusions and recommendations in this project are those of the author and do not necessarily reflect the views of the funding agencies. 
