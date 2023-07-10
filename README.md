@@ -29,14 +29,21 @@ https://drive.google.com/uc?export=download&id=1qQ3ohQgHur7sH2sjZpljaJQIJqz5o8aK
 
 
 ### Training and evaluation
-Fruit dataset: \
-`python main.py --dataset fruit --lr 0.01 --weight_decay 0.0005 --type color` \
-`python main.py --dataset fruit --lr 0.01 --weight_decay 0.0001 --type species` 
+Fruit dataset
+```
+python main.py --dataset fruit --lr 0.01 --weight_decay 0.0005 --type color
+```
+```
+python main.py --dataset fruit --lr 0.01 --weight_decay 0.0001 --type species 
+```
 
-Fruit360 dataset: \
-`python main.py --dataset fruit360 --lr 0.05 --weight_decay 0.0005 --type color` \
-`python main.py --dataset fruit360 --lr 0.01 --weight_decay 0.0001 --type species`
-
+Fruit360 dataset
+```
+python main.py --dataset fruit360 --lr 0.05 --weight_decay 0.0005 --type color
+```
+```
+python main.py --dataset fruit360 --lr 0.01 --weight_decay 0.0001 --type species
+```
 ## Bibtex
 Please cite our paper if you use this code or labeled datasets (Furit360/Cards) in your own work:
 
