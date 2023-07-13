@@ -25,7 +25,7 @@ we propose AugDMC, a novel data Augmentation guided Deep Multiple Clustering met
 - [x] Furit360
 - [x] Cards
 
-https://drive.google.com/uc?export=download&id=1qQ3ohQgHur7sH2sjZpljaJQIJqz5o8aK
+http://faculty.washington.edu/juhuah/images/AugDMC_datasets.zip
 
 
 ### Training and evaluation
